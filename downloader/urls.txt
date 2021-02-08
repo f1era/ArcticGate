@@ -1,0 +1,13 @@
+#
+# 1. Type urls on line. Example:
+#
+# https://google.com/search?q=google
+# https://github.com/post/4225353434
+# 
+# search: how to use try except python
+#
+# 2. Save this file and return to program
+# 3. GL HF
+#
+
+search: как найти максимум информации по номеру телефона 

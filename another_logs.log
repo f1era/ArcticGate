@@ -1,0 +1,800 @@
+Caller: WEATHER_LOAD
+Time: 2021-01-08 19:26:41.000030
+  >> rp5.ru weather is loaded at 33s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-08 19:29:58.112500
+  >> rp5.ru weather is loaded at 18s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-08 19:35:02.858066
+  >> Pages are loaded at 41s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-08 19:50:04.460461
+  >> rp5.ru weather is loaded at 29s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-08 20:01:04.656343
+  >> rp5.ru weather is loaded at 33s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-08 20:03:47.968961
+  >> rp5.ru weather is loaded at 67s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-09 08:47:56.163170
+  >> rp5.ru weather is loaded at 162s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-09 09:03:18.088131
+  >> Pages are loaded at 611s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-09 11:43:38.400771
+  >> Pages are loaded at 117s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-09 11:47:13.646527
+  >> Pages are loaded at 8s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-09 12:38:25.980001
+  >> Pages are loaded at 136s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-09 12:43:24.616495
+  >> Pages are loaded at 49s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-09 12:45:25.568354
+  >> Pages are loaded at 13s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-09 15:12:08.166200
+  >> rp5.ru weather is loaded at 40s 
+
+Caller: HABR_NEWS
+Time: 2021-01-09 21:19:12.734939
+  >> Habr news are loaded in console at 217s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-09 21:29:25.122420
+  >> rp5.ru weather is loaded at 201s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-09 21:34:21.151312
+  >> Pages are loaded at 37s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-09 21:35:58.663554
+  >> Pages are loaded at 35s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-09 21:37:39.222490
+  >> Pages are loaded at 43s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-09 21:41:05.524373
+  >> Pages are loaded at 42s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-09 21:43:19.645228
+  >> Pages are loaded at 35s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-09 21:46:04.304517
+  >> Pages are loaded at 45s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-10 11:10:58.307224
+  >> rp5.ru weather is loaded at 40s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 13:54:16.527293
+  >> SOF news are loaded in console at 17s 
+
+Caller: LOAD_NEWS
+Time: 2021-01-10 13:56:36.794877
+  >> Authors error: name 'titles' is not defined 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 13:57:15.218760
+  >> SOF news are loaded in console at 17s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 13:59:17.313349
+  >> SOF news are loaded in console at 21s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 14:00:17.779299
+  >> SOF news are loaded in console at 13s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 14:02:11.459504
+  >> SOF news are loaded in console at 11s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 14:03:30.261489
+  >> SOF news are loaded in console at 28s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 14:09:41.253144
+  >> SOF news are loaded in console at 24s 
+
+Caller: LOAD_NEWS
+Time: 2021-01-10 14:12:13.527845
+  >> Authors error: list index out of range 
+
+Caller: LOAD_NEWS
+Time: 2021-01-10 14:30:02.815055
+  >> Authors error: ResultSet object has no attribute 'findAll'. You're probably treating a list of elements like a single element. Did you call find_all() when you meant to call find()? 
+
+Caller: LOAD_NEWS
+Time: 2021-01-10 14:32:34.692690
+  >> Authors error: ResultSet object has no attribute 'findAll'. You're probably treating a list of elements like a single element. Did you call find_all() when you meant to call find()? 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 14:39:48.359163
+  >> SOF news are loaded in console at 55s 
+
+Caller: LOAD_NEWS
+Time: 2021-01-10 14:40:36.310448
+  >> Authors error: object of type 'NoneType' has no len() 
+
+Caller: LOAD_NEWS
+Time: 2021-01-10 14:42:13.833931
+  >> Authors error: object of type 'NoneType' has no len() 
+
+Caller: LOAD_NEWS
+Time: 2021-01-10 14:44:50.177948
+  >> Authors error: object of type 'NoneType' has no len() 
+
+Caller: LOAD_NEWS
+Time: 2021-01-10 14:51:16.381762
+  >> Authors error: list index out of range 
+
+Caller: LOAD_NEWS
+Time: 2021-01-10 14:54:37.526096
+  >> Authors error: list index out of range 
+
+Caller: LOAD_NEWS
+Time: 2021-01-10 14:56:03.023943
+  >> Authors error: list index out of range 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 14:57:00.853529
+  >> SOF news are loaded in console at 11s 
+
+Caller: LOAD_NEWS
+Time: 2021-01-10 15:05:53.840615
+  >> Authors error: the first two maketrans arguments must have equal length 
+
+Caller: LOAD_NEWS
+Time: 2021-01-10 15:06:36.298804
+  >> Authors error: name 'intab' is not defined 
+
+Caller: LOAD_NEWS
+Time: 2021-01-10 15:08:33.866441
+  >> Authors error: the first two maketrans arguments must have equal length 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 15:11:44.525941
+  >> SOF news are loaded in console at 11s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 15:15:20.173293
+  >> SOF news are loaded in console at 22s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 15:18:03.773993
+  >> SOF news are loaded in console at 13s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 15:19:56.432867
+  >> SOF news are loaded in console at 43s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 15:20:55.081551
+  >> SOF news are loaded in console at 22s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 15:21:54.672680
+  >> SOF news are loaded in console at 38s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 15:23:41.716791
+  >> SOF news are loaded in console at 29s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 15:27:11.478195
+  >> SOF news are loaded in console at 16s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 15:33:04.087619
+  >> SOF news are loaded in console at 17s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 15:34:55.562527
+  >> SOF news are loaded in console at 14s 
+
+Caller: LOAD_NEWS
+Time: 2021-01-10 15:56:46.585989
+  >> Authors error: local variable 'r2' referenced before assignment 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 15:57:28.166711
+  >> SOF news are loaded in console at 28s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 16:00:30.729292
+  >> SOF news are loaded in console at 17s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 16:02:07.403477
+  >> SOF news are loaded in console at 26s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 16:03:13.562743
+  >> SOF news are loaded in console at 30s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 16:05:48.071996
+  >> SOF news are loaded in console at 11s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 16:06:53.844152
+  >> SOF news are loaded in console at 9s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 16:08:17.143778
+  >> SOF news are loaded in console at 23s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 16:11:13.416151
+  >> SOF news are loaded in console at 19s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 16:12:03.316765
+  >> SOF news are loaded in console at 12s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 16:13:00.421694
+  >> SOF news are loaded in console at 39s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 16:14:53.967824
+  >> SOF news are loaded in console at 40s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 16:48:36.620633
+  >> SOF news are loaded in console at 26s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 16:52:54.121697
+  >> SOF news are loaded in console at 15s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 16:53:23.167889
+  >> SOF news are loaded in console at 13s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 17:12:50.320071
+  >> SOF news are loaded in console at 24s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 17:17:12.774668
+  >> SOF news are loaded in console at 15s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 17:17:58.886768
+  >> SOF news are loaded in console at 14s 
+
+Caller: PAGES_LOAD
+Time: 2021-01-10 17:18:20.935208
+  >> SOF pages are loaded at 14s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 17:19:16.509260
+  >> SOF news are loaded in console at 19s 
+
+Caller: PAGES_LOAD
+Time: 2021-01-10 17:19:32.803198
+  >> SOF pages are loaded at 16s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 17:42:41.163606
+  >> SOF news are loaded in console at 27s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 17:43:40.800198
+  >> SOF news are loaded in console at 16s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 17:48:30.245499
+  >> SOF news are loaded in console at 11s 
+
+Caller: PAGES_LOAD
+Time: 2021-01-10 17:49:10.334213
+  >> SOF pages are loaded at 10s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 17:53:43.284477
+  >> SOF news are loaded in console at 71s 
+
+Caller: PAGES_LOAD
+Time: 2021-01-10 17:54:59.344389
+  >> SOF pages are loaded at 76s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 17:56:34.400754
+  >> SOF news are loaded in console at 43s 
+
+Caller: PAGES_LOAD
+Time: 2021-01-10 17:57:24.842368
+  >> SOF pages are loaded at 50s 
+
+Caller: SOF_NEWS
+Time: 2021-01-10 18:01:33.168822
+  >> SOF news are loaded in console at 17s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-10 18:41:02.754941
+  >> Pages are loaded at 153s 
+
+Caller: GOOGLE_RESPONSE
+Time: 2021-01-10 18:44:25.524801
+  >> Authors error: ResultSet object has no attribute 'content'. You're probably treating a list of elements like a single element. Did you call find_all() when you meant to call find()? 
+
+Caller: GOOGLE_RESPONSE
+Time: 2021-01-10 18:46:52.914892
+  >> Authors error: object of type 'NoneType' has no len() 
+
+Caller: HABR_NEWS
+Time: 2021-01-10 18:52:26.391297
+  >> Habr news are loaded in console at 23s 
+
+Caller: HABR_NEWS
+Time: 2021-01-10 19:52:19.542355
+  >> Habr news are loaded in console at 32s 
+
+Caller: HABR_NEWS
+Time: 2021-01-10 19:58:07.662698
+  >> Habr news are loaded in console at 55s 
+
+Caller: ITPROG_NEWS
+Time: 2021-01-10 19:59:47.471437
+  >> IT-prog news are loaded in console at 59s 
+
+Caller: GOOGLE_RESPONSE
+Time: 2021-01-10 20:03:36.867009
+  >> Authors error: object of type 'NoneType' has no len() 
+
+Caller: GOOGLE_RESPONSE
+Time: 2021-01-10 20:20:40.603514
+  >> Authors error: object of type 'NoneType' has no len() 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-10 20:21:03.743884
+  >> rp5.ru weather is loaded at 14s 
+
+Caller: SOF_NEWS
+Time: 2021-01-14 20:58:59.262169
+  >> SOF news are loaded in console at 221s 
+
+Caller: HABR_NEWS
+Time: 2021-01-14 22:03:41.328961
+  >> Habr news are loaded in console at 324s 
+
+Caller: PAGES_LOAD
+Time: 2021-01-14 23:21:49.400865
+  >> habr pages are loaded at 4205s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-15 09:11:01.664164
+  >> rp5.ru weather is loaded at 25s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-15 13:58:48.403469
+  >> Authors error: name 'response' is not defined 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-15 14:12:29.032596
+  >> Authors error: name 'tqdm' is not defined 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-15 14:13:36.173709
+  >> Authors error: 'module' object is not callable 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-15 14:19:32.685163
+  >> Authors error: 'module' object is not callable 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-15 14:21:49.063765
+  >> Authors error: 'module' object is not callable 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-15 14:23:00.014444
+  >> File: googlelogo_color_272x92dp.png is loaded at 18s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-15 14:24:33.593816
+  >> File: googlelogo_color_272x92dp.png is loaded at 8s 
+
+Caller: SOF_NEWS
+Time: 2021-01-15 14:28:24.387974
+  >> SOF news are loaded in console at 11s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-15 14:29:30.283989
+  >> Pages are loaded at 36s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-15 14:31:28.407171
+  >> Pages are loaded at 62s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-15 14:31:59.383859
+  >> Pages are loaded at 23s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-15 14:39:37.032397
+  >> Pages are loaded at 16s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-15 15:06:32.601564
+  >> Pages are loaded at 19s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-15 15:16:15.858181
+  >> Pages are loaded at 32s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-15 15:25:20.329325
+  >> Pages are loaded at 45s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-15 15:27:25.114445
+  >> Pages are loaded at 79s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-15 15:30:53.152054
+  >> Pages are loaded at 10s 
+
+Caller: HABR_NEWS
+Time: 2021-01-15 16:10:09.355591
+  >> Habr news are loaded in console at 15s 
+
+Caller: PAGES_LOAD
+Time: 2021-01-15 16:13:41.104149
+  >> habr pages are loaded at 212s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-16 11:25:10.771271
+  >> Authors error: local variable 'total_size_in_bytes' referenced before assignment 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-16 11:25:25.894082
+  >> Authors error: encoding with 'idna' codec failed (UnicodeError: label too long) 
+
+Caller: SENDER
+Time: 2021-01-16 12:50:24.630674
+  >> Data sended at 14s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-16 14:46:07.057247
+  >> File: file_171.mp4 is loaded at 560s 
+
+Caller: DOWNLOADER_FILES
+Time: 2021-01-16 14:46:07.122079
+  >> Files are loaded at 560s 
+
+Caller: HABR_NEWS
+Time: 2021-01-16 20:35:12.981201
+  >> Headers are loaded at 643s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-16 20:37:05.862586
+  >> File: googlelogo_color_272x92dp.png is loaded at 24s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-17 09:25:12.115946
+  >> File: Артем Качер - Стреляй.mp3 is loaded at 727s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-17 12:46:56.506404
+  >> rp5.ru weather is loaded at 248s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-17 14:11:18.458044
+  >> Authors error: can only concatenate str (not "float") to str 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-17 14:24:59.929586
+  >> Authors error: can only concatenate str (not "float") to str 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-17 14:41:27.022456
+  >> File: просто Лера - Лютики.mp3 is loaded at 364s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-17 15:02:16.786540
+  >> File: просто Лера - Светофоры.mp3 is loaded at 1613s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-17 15:17:12.520759
+  >> File: file_176.mp4 is loaded at 717s 
+
+Caller: DOWNLOADER_FILES
+Time: 2021-01-17 15:17:12.580598
+  >> Files are loaded at 717s 
+
+Caller: MERGE_PDF
+Time: 2021-01-17 15:23:11.098962
+  >> Authors error: name 'os' is not defined 
+
+Caller: MERGE_PDF
+Time: 2021-01-17 15:23:54.916087
+  >> Authors error: logs_writer() takes 2 positional arguments but 3 were given 
+
+Caller: MERGE_PDF
+Time: 2021-01-17 15:24:44.809951
+  >> Authors error: logs_writer() takes 2 positional arguments but 3 were given 
+
+Caller: MERGE_PDF
+Time: 2021-01-17 15:24:48.833166
+  >> Authors error: logs_writer() takes 2 positional arguments but 3 were given 
+
+Caller: SENDER
+Time: 2021-01-17 15:32:23.238541
+  >> Data sended at 14s 
+
+Caller: SENDER
+Time: 2021-01-17 15:33:29.723895
+  >> Data sended at 16s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-17 15:42:04.147546
+  >> rp5.ru weather is loaded at 32s 
+
+Caller: HABR_NEWS
+Time: 2021-01-17 15:43:02.460115
+  >> Habr news are loaded in console at 39s 
+
+Caller: PAGES_LOAD
+Time: 2021-01-17 15:46:37.622328
+  >> habr pages are loaded at 215s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-17 16:51:56.512790
+  >> File: IMG_0908.MP4 is loaded at 1740s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-17 17:32:19.659819
+  >> File: file_174.mp4 is loaded at 4163s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-17 17:45:40.329928
+  >> File: file_183.mp4 is loaded at 4964s 
+
+Caller: DOWNLOADER_FILES
+Time: 2021-01-17 17:45:40.618156
+  >> Files are loaded at 4964s 
+
+Caller: SENDER
+Time: 2021-01-18 13:40:29.919552
+  >> Data sended at 36s 
+
+Caller: DOWNLOADER_FILES
+Time: 2021-01-18 13:48:34.355557
+  >> Prices are loaded at 71s 
+
+Caller: SENDER
+Time: 2021-01-18 13:48:52.224807
+  >> Data sended at 18s 
+
+Caller: HABR_NEWS
+Time: 2021-01-18 14:05:11.447307
+  >> Habr news are loaded in console at 13s 
+
+Caller: PAGES_LOAD
+Time: 2021-01-18 14:05:48.757746
+  >> habr pages are loaded at 11s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-18 14:09:23.789895
+  >> Pages are loaded at 26s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-18 14:31:51.857748
+  >> Pages are loaded at 55s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-18 14:37:10.555463
+  >> Pages are loaded at 53s 
+
+Caller: DOWNLOADING_PAGES
+Time: 2021-01-18 14:40:32.676693
+  >> Pages are loaded at 84s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-18 14:48:11.743706
+  >> Authors error: list index out of range 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-18 14:49:54.679764
+  >> rp5.ru weather is loaded at 90s 
+
+Caller: HABR_NEWS
+Time: 2021-01-18 14:53:19.777746
+  >> Headers are loaded at 22s 
+
+Caller: SENDER
+Time: 2021-01-18 18:03:19.947240
+  >> Data sended at 81s 
+
+Caller: SENDER
+Time: 2021-01-18 18:40:29.645800
+  >> Data sended at 74s 
+
+Caller: SENDER
+Time: 2021-01-18 18:56:39.708654
+  >> Data sended at 423s 
+
+Caller: SENDER
+Time: 2021-01-18 19:10:36.932965
+  >> Data sended at 788s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-18 19:46:28.887595
+  >> Authors error: 'NoneType' object is not callable 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-18 19:48:05.130969
+  >> Authors error: 'NoneType' object is not callable 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-18 19:48:50.975943
+  >> rp5.ru weather is loaded at 16s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-18 19:50:01.855605
+  >> Authors error: 'NoneType' object is not callable 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-18 19:50:40.119021
+  >> Authors error: replace() argument 1 must be str, not None 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-18 19:51:31.912362
+  >> Authors error: replace() argument 1 must be str, not None 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-18 19:53:04.729312
+  >> rp5.ru weather is loaded at 27s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-18 19:55:47.906151
+  >> rp5.ru weather is loaded at 56s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-18 20:00:16.665369
+  >> Authors error: replace() argument 1 must be str, not Tag 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-18 20:04:33.365789
+  >> rp5.ru weather is loaded at 175s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-18 20:11:08.462490
+  >> rp5.ru weather is loaded at 164s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-18 20:16:12.904073
+  >> Authors error: replace() argument 1 must be str, not None 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-18 20:17:06.298916
+  >> rp5.ru weather is loaded at 33s 
+
+Caller: SENDER
+Time: 2021-01-18 20:20:36.607022
+  >> Data sended at 85s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-18 20:21:39.172635
+  >> rp5.ru weather is loaded at 23s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-18 20:25:00.542162
+  >> rp5.ru weather is loaded at 111s 
+
+Caller: SENDER
+Time: 2021-01-18 20:26:22.467207
+  >> Data sended at 30s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-18 20:30:12.822299
+  >> rp5.ru weather is loaded at 20s 
+
+Caller: SENDER
+Time: 2021-01-18 20:39:39.259024
+  >> Data sended at 93s 
+
+Caller: WEATHER_LOAD
+Time: 2021-01-19 08:52:47.302361
+  >> rp5.ru weather is loaded at 237s 
+
+Caller: SENDER
+Time: 2021-01-19 08:55:21.920536
+  >> Data sended at 154s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-19 17:31:20.269343
+  >> File: file_184.jpg is loaded at 123s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-19 17:57:16.360589
+  >> File: Corey - Corey's Intro.mp3 is loaded at 1679s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-19 18:29:08.181867
+  >> File: Cooliecut, Craig Xen, Killstation - Nothing.mp3 is loaded at 3591s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-19 18:57:05.060038
+  >> File: XXXTENTACION - Sauce!.mp3 is loaded at 5268s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-19 22:49:21.884256
+  >> File: XXXTENTACION,_Flyboy_Tarantino,.mp3 is loaded at 1388s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-19 23:15:11.998106
+  >> File: Kid Trunks, Flyboy Tarantino, Robb Bank$ - Plottin.mp3 is loaded at 2938s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-19 23:39:14.232768
+  >> File: Tankhead, Ikabod Veins - Pick Your Poison.mp3 is loaded at 4381s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-20 00:01:20.596438
+  >> File: Bass_Santana,_Cooliecut,_Kin$oul.mp3 is loaded at 5707s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-20 00:22:35.069095
+  >> File: Flyboy Tarantino, Craig Xen - Love Hard, Fall Fast.mp3 is loaded at 6982s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-20 00:50:10.715987
+  >> File: Flyboy Tarantino, Craig Xen, Kidway - Now or Never.mp3 is loaded at 8637s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-20 01:59:14.341278
+  >> File: Killstation, Cooliecut, Craig Xen - Cold Weather.mp3 is loaded at 12781s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-20 08:01:39.043574
+  >> File: XXXTENTACION,_Bass_Santana,_Kin$oul.mp3 is loaded at 699s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-20 09:18:56.423314
+  >> File: Bass_Santana,_Flyboy_Tarantino,.mp3 is loaded at 5336s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-20 10:02:35.038695
+  >> File: Bass_Santana,_Kin$oul,_Robb_Bank$.mp3 is loaded at 7955s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-20 10:36:41.824274
+  >> File: Bass_Santana,_XXXTENTACION,_Ski.mp3 is loaded at 10001s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-20 10:51:32.357380
+  >> File: Craig Xen - PROUD PUPPY LOVER!.mp3 is loaded at 10892s 
+
+Caller: FILE_DOWNLOADER
+Time: 2021-01-20 11:08:07.284349
+  >> File: Kid Trunks - Woah (Freestyle).mp3 is loaded at 11887s 
+
