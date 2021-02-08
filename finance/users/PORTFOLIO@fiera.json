@@ -1,0 +1,49 @@
+{
+    "LASTUPDATE": 1610966914,
+    "TLGID": 365576622,
+    "STARTBALANCE": 390000,
+    "USERPORTFOLIO": {
+        "USDRUB=X": {
+            "val": "RUB",
+            "enum": 3000,
+            "price": 73.585,
+            "change": 0.06529999
+        },
+        "EURRUB=X": {
+            "val": "RUB",
+            "enum": 2000,
+            "price": 88.936,
+            "change": 0.3899994
+        },
+        "GOLD": {
+            "val": "USD",
+            "enum": 0,
+            "price": 23.14,
+            "change": -0.540001
+        },
+        "BZ=F": {
+            "val": "USD",
+            "enum": 0,
+            "price": 54.58,
+            "change": -0.51999664
+        },
+        "YNDX.ME": {
+            "val": "RUB",
+            "enum": 0,
+            "price": 4998.0,
+            "change": -79.3999
+        },
+        "AAPL": {
+            "val": "USD",
+            "enum": 0,
+            "price": 127.14,
+            "change": -1.7700043
+        },
+        "TSLA": {
+            "val": "USD",
+            "enum": 0,
+            "price": 826.16,
+            "change": -18.840027
+        }
+    }
+}

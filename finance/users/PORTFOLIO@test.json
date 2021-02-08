@@ -1,0 +1,13 @@
+{
+    "LASTUPDATE": 1610966198,
+    "TLGID": 365576622,
+    "STARTBALANCE": 390000,
+    "USERPORTFOLIO": {
+        "USDRUB=X": {
+            "val": "RUB",
+            "enum": 3000,
+            "price": 73.711,
+            "change": 0.19129944
+        }
+    }
+}

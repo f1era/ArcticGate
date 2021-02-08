@@ -1,0 +1,109 @@
+{
+    "LASTUPDATE": 1610966198,
+    "TLGID": 1015318361,
+    "STARTBALANCE": 38000,
+    "USERPORTFOLIO": {
+        "USDRUB=X": {
+            "val": "RUB",
+            "enum": 0,
+            "price": 73.711,
+            "change": 0.19129944
+        },
+        "EURRUB=X": {
+            "val": "RUB",
+            "enum": 0,
+            "price": 88.9409,
+            "change": 0.3949051
+        },
+        "GOLD": {
+            "val": "USD",
+            "enum": 0,
+            "price": 23.14,
+            "change": -0.540001
+        },
+        "BZ=F": {
+            "val": "USD",
+            "enum": 0,
+            "price": 54.59,
+            "change": -0.5099983
+        },
+        "LKOH.ME": {
+            "val": "RUB",
+            "enum": 2,
+            "price": 5888.5,
+            "change": -48.5
+        },
+        "MOEX.ME": {
+            "val": "RUB",
+            "enum": 60,
+            "price": 159.9,
+            "change": 0.13999939
+        },
+        "RTKM.ME": {
+            "val": "RUB",
+            "enum": 40,
+            "price": 98.93,
+            "change": -0.010002136
+        },
+        "RTKMP.ME": {
+            "val": "RUB",
+            "enum": 220,
+            "price": 87.95,
+            "change": -0.55000305
+        },
+        "POGR.ME": {
+            "val": "RUB",
+            "enum": 400,
+            "price": 31.45,
+            "change": -0.38499832
+        },
+        "MAIL.ME": {
+            "val": "RUB",
+            "enum": 5,
+            "price": 1967.0,
+            "change": -20.800049
+        },
+        "SBER.ME": {
+            "val": "RUB",
+            "enum": 0,
+            "price": 276.9,
+            "change": -7.8900146
+        },
+        "GAZP.ME": {
+            "val": "RUB",
+            "enum": 0,
+            "price": 226.5,
+            "change": -2.3600006
+        },
+        "VTBR.ME": {
+            "val": "RUB",
+            "enum": 0,
+            "price": 0.03956,
+            "change": -0.00031499937
+        },
+        "PLZL.ME": {
+            "val": "RUB",
+            "enum": 0,
+            "price": 14840.0,
+            "change": -240.0
+        },
+        "YNDX.ME": {
+            "val": "RUB",
+            "enum": 0,
+            "price": 4998.0,
+            "change": -79.3999
+        },
+        "AFKS.ME": {
+            "val": "RUB",
+            "enum": 0,
+            "price": 30.955,
+            "change": -0.006000519
+        },
+        "NVTK.ME": {
+            "val": "RUB",
+            "enum": 0,
+            "price": 1375.8,
+            "change": -62.19995
+        }
+    }
+}
