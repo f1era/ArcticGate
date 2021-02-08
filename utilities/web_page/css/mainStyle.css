@@ -1,0 +1,2890 @@
+@font-face {
+    font-family Lohit-Devanagari;  имя шрифта для CSS правил 
+    src local(Lohit-Devanagari),  проверяем наличие шрифта в ОС пользователя 
+    url(..fontshi.ttf);  если шрифт не установлен, тогда загружаем его по указанному пути 
+}
+@font-face {
+    font-family 'roboto';
+    src url('fontsrobotoRobotoRegularRobotoRegular.eot');
+    src local('вє'), url('fontsrobotoRobotoRegularRobotoRegular.woff') format('woff'), url('fontsrobotoRobotoRegularRobotoRegular.ttf') format('truetype'), url('fontsrobotoRoboto-Regular.svg') format('svg');
+    font-weight normal;
+    font-style normal;
+}
+@font-face {
+    font-family 'roboto-light';
+    src url('fontsrobotoRoboto-Light.eot');
+    src local('вє'),url('fontsrobotoRoboto-Light.woff') format('woff'), url('fontsrobotoRoboto-Light.ttf') format('truetype'), url('fontsrobotoRoboto-Light.svg') format('svg');
+    font-weight normal;
+    font-style normal;
+}
+@font-face {
+    font-family 'roboto-regular';
+    src url('fontsrobotoRobotoRegularRobotoRegular.eot');
+    src local('вє'), url('fontsrobotoRobotoRegularRobotoRegular.woff') format('woff'), url('fontsrobotoRobotoRegularRobotoRegular.ttf') format('truetype'), url('fontsrobotoRoboto-Regular.svg') format('svg');
+    font-weight normal;
+    font-style normal;
+}
+@font-face {
+    font-family 'roboto-medium';
+    src url('fontsrobotoRoboto-Medium.eot');
+    src local('вє'),url('fontsrobotoRoboto-Medium.woff') format('woff'), url('fontsrobotoRoboto-Medium.ttf') format('truetype'), url('fontsrobotoRoboto-Medium.svg') format('svg');
+    font-weight bold;
+    font-style normal;
+}
+@font-face {
+    font-family 'roboto-italic';
+    src url('fontsrobotoRoboto-Italic.eot');
+    src local('вє'),url('fontsrobotoRoboto-Italic.woff') format('woff'), url('fontsrobotoRoboto-Italic.ttf') format('truetype'), url('fontsrobotoRoboto-Italic.svg') format('svg');
+    font-weight normal;
+    font-style italic;
+}
+
+html, body {
+    width 100%;
+    height 100%;
+    font 13px helvetica, arial, verdana, sans-serif;
+    color #000;
+    margin 0;
+    padding 0;
+}
+
+html {
+    background url(..imagesmainBg.png);
+}
+
+
+  @TITLES H1, H2, H3, H4
+ 
+
+h1 {
+    font-size 24px;
+    margin 0;
+    padding 0;
+    color #000;
+}
+
+h2 {
+    font-size 17px;
+    margin 5px 0 10px 0;
+    color #000;
+}
+
+h3 {
+    font-size 16px;
+    margin 5px 0 0 0;
+    color #000;
+}
+
+p {
+    margin 10px 0 10px 0;
+}
+
+textarea {
+    resize none;
+}
+
+ol li {
+    margin-left 2em;
+    display list-item;
+    list-style inside decimal;
+}
+
+table, td {
+    padding 0;
+    border-spacing 0;
+}
+
+table {
+    width 100%;
+    border 0;
+}
+
+.inline {
+    display inline;
+    margin-left -1px;
+}
+
+.tableHeader {
+    font-size 16px;
+    display inline;
+    color #fff;
+    margin 0 20px 0 5px;
+}
+
+.radio {
+    width 17px;
+    height 17px;
+    margin 0 0 -2px 5px;
+    display inline-block;
+}
+
+.radio {
+    background url(..imagesradioBg.png) no-repeat;
+}
+
+.imgInText {
+    padding 4px;
+    background #fff;
+    border 2px solid #a3b7be;
+    margin 15px 0 15px 0;
+    display block;
+    -webkit-border-radius 5px;
+    -moz-border-radius 5px;
+    border-radius 5px;
+    -webkit-box-shadow 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+
+  @MAIN STYLE LINK
+ 
+
+a {
+    color #fff;
+    text-decoration none;
+}
+
+ahover {
+    color #fff;
+    text-decoration underline;
+}
+
+avisited {
+    color #fff;
+    text-decoration none;
+}
+
+a img {
+    border none;
+}
+
+#langMenu .imgflag {
+    width 13px;
+    height 9px;
+    margin 0 6px -1px 0;
+}
+.langMenu-li {
+    padding 3px 0 3px 0;
+}
+
+
+  @UPSET
+ 
+
+.clear {
+    clear both;
+}
+
+ start #ff5900 
+.red {
+    color #ff5900;
+}
+
+.redDanger1 {
+    color #ff9900;
+}
+
+.redDanger2 {
+    color #ff3300;
+}
+
+.redDanger3 {
+    color #cc0000;
+}
+
+.redDanger4 {
+    color #990033;
+}
+
+.blue {
+    color #2b63a0;
+}
+
+.blueDanger1 {
+    color #00ccff;
+}
+
+.blueDanger2 {
+    color #0099ff;
+}
+
+.blueDanger3 {
+    color #0033ff;
+}
+
+.grey {
+    color #000;
+}
+
+.litegrey {
+    color #808080;
+}
+
+.otstup {
+    padding-left 2px;
+}
+
+#back-wrapper {
+    display none;
+    position absolute;
+    width 100%;
+    height 100%;
+    top 0;
+    left 0;
+    background #000;
+    opacity 0.5;
+    filter Alpha(Opacity=50, FinishOpacity=50, Style=1, StartX=Y, StartY=X, FinishX=10, FinishY=10);
+    z-index 101;
+}
+
+
+  @MAIN WRAPPER
+ 
+
+#wrapper {
+    width 100%;
+    min-height 100%;
+    background url(..imagestopContentBg.png) repeat-x 0 123px;
+}
+
+
+  @HEADER
+ 
+#header-wrapper {
+    position absolute;
+    min-width 1187px;
+    width 100%;
+    height 123px;
+    background url(..imagesheaderBg_1.png) repeat-x;
+    z-index 100;
+    left 0;
+    top 0;
+}
+
+#header {
+    margin auto;
+    width 1000px;
+    padding 0 173px 0 0;
+    background url(..imagesbg_NY.png) -6px -4px no-repeat;
+}
+
+#logo {
+    padding 20px 0 0 0;
+}
+
+  neyYear
+ 
+#newyear {
+    width 48px;
+    height 34px;
+    margin -88px 0 0 -21px;
+}
+#newyear_hi {
+    width 48px;
+    height 34px;
+    margin -94px 0 0 -21px;;
+}
+
+
+  @CONTENT
+ 
+#content-wrapper {
+    width 1197px;
+    height 100%;
+    min-height 400px;
+    margin auto;
+    padding 123px 0 165px 0;
+}
+#content {
+    width 1007px;
+    float left;
+    margin 0 10px 0 10px;
+}
+#content-data {
+    clear both;
+}
+#content a {
+    color #005EB5;
+    text-decoration none;
+}
+#content ahover {
+    color #005EB5;
+    text-decoration underline;
+}
+#content avisited {
+    color #005EB5;
+    text-decoration none;
+}
+
+
+  @FOOTER
+ 
+#footer-wrapper {
+    width 100%;
+    height 155px;
+    margin -155px 0 0 0;
+    background url(..imagesbottomContentBg.png) repeat-x 0 0;
+}
+#footer {
+    width 1197px;
+    margin auto;
+    text-align left;
+    font-size 12px;
+}
+#footer-content {
+    width 1007px;
+    padding 0 10px 0 10px;
+    font-size 12px;
+}
+
+#footer-info {
+    display table;
+    width 1007px;
+    padding 0 10px 0 10px;
+    vertical-align top;
+}
+
+#footer a {
+    color #005EB5;
+    text-decoration none;
+}
+
+#footer ahover {
+    color #005EB5;
+    text-decoration underline;
+}
+
+#footer avisited {
+    color #005EB5;
+    text-decoration none;
+}
+
+#footer-info a {
+    color #005EB5;
+    text-decoration none;
+}
+
+#footer-info ahover {
+    color #005EB5;
+    text-decoration underline;
+}
+
+#footer-info avisited {
+    color #005EB5;
+    text-decoration none;
+}
+
+.footerMenu {
+    display table-cell;
+    width 200px;
+    padding-right 15px;
+}
+
+.footerNews {
+    display table-cell;
+    width 350px;
+}
+
+#footer-copyright {
+    color #808080;
+    width 100%;
+    text-align left;
+    font-size 11px;
+    margin 25px 0 0 0;
+    padding 3px 0 0 0;
+    border-top 1px dashed #aeb9c0;
+}
+
+
+  @HEADER TOP MENU
+ 
+#topMenuContent {
+    width 813px;
+    background url(..imagestopMenuBg.png) repeat-x;
+    floatleft;
+    padding 0 5px 0 2px;
+    line-height 30px;
+    vertical-align middle;
+    font-size 12px;
+    color #fff;
+    text-align left;
+    height 30px;
+    border-radius 0 0 5px 5px;
+    -webkit-border-radius 0 0 5px 5px;
+    -moz-border-radius 0 0 5px 5px;
+}
+
+#topMenuContent a {
+    padding 0 8px 0 4px;
+}
+
+#topMenuContent afirst-child {
+    margin-left 4px;
+}
+
+
+  @HEADER COUNTRIES
+ 
+#countries {
+    margin 5px 0 0 11px;
+    display inline-block;
+    width 90%;
+    overflow hidden;
+    max-height 31px;
+}
+
+#countries a {
+    font-size 12px;
+    text-decoration underline;
+    padding-right 5px;
+}
+
+#search {
+    float right;
+    width 338px;
+    height 35px;
+    margin 2px 5px 0 0;
+    border none;
+    border-radius 5px;
+    -webkit-border-radius 5px;
+    -moz-border-radius 5px;
+    background #fff;
+}
+
+.search {
+    float left;
+    width 280px;
+    padding 8px 0px 8px 9px;
+    background transparent;
+    border none;
+    margin 2px 6px 0 2px;
+    font-size 12px;
+}
+
+.searchButton {
+    float right;
+    width 35px;
+    height 35px;
+     background url(..imagesbuttonSearchOff_1.png);
+    border 0;
+    cursor pointer;
+}
+
+.searchButtonhover {
+    background url(..imagesbuttonSearchOff_1.png);
+}
+
+.searchButtonactive {
+    background url(..imagesbuttonSearchOff_1.png);
+}
+
+
+  @HEADER DROP DOWN LIST AND BUTTONS
+ 
+.ddListSummary {
+    width 115px;
+    height 35px;
+    float right;
+    margin 0 5px 0 0;
+    text-decoration none;
+    font-size 9px;
+    border none;
+    text-align left;
+    cursor pointer;
+}
+
+.ddListSummary1 {
+    width 115px;
+    height 35px;
+    float right;
+    margin 0 5px 0 0;
+    text-decoration none;
+    font-size 9px;
+    border none;
+    text-align left;
+    cursor pointer;
+}
+
+.ddList1 {
+    width 115px;
+    height 35px;
+    background url(..imagesDdListOff_1.png) no-repeat;
+    color #444444;
+    -webkit-border-radius 5px;
+    -moz-border-radius 5px;
+    border-radius 5px;
+    margin 2px 2px 2px 0;
+    margin-left 0 !important;
+}
+
+.ddList1hover {
+    background url(..imagesDdListOn_1.png) no-repeat;
+}
+
+.ddList1active {
+     background url(..imagesDdListOn_1.png) no-repeat;
+}
+
+.ddList2 {
+    width 115px;
+    height 35px;
+    background url(..imagesOptionsOff_1.png) no-repeat;
+    color #444444; margin 2px;
+    -webkit-border-radius 5px;
+    -moz-border-radius 5px;
+    border-radius 5px;
+    margin 2px 2px 2px 0;
+    margin-left 0 !important;
+}
+
+.ddList2hover {
+    background url(..imagesOptionsOn_1.png) no-repeat;
+}
+
+.ddList2active {
+    background url(..imagesOptionsOn_1.png) no-repeat;
+}
+
+.inDdSummary {
+    width 77px;
+    height inherit;
+    padding 0 27px 0 7px;
+    font-size 12px;
+    color #000;
+    text-decoration none;
+}
+
+.inDd2Summary {
+    width 64px;
+    height inherit;
+    font-size 12px;
+}
+
+a.inDd2 {
+    color #000;
+    text-decoration none;
+}
+
+a.inDd2hover {
+    color #000;
+    text-decoration none;
+}
+
+a.inDd2active {
+    color #000;
+    text-decoration none;
+}
+
+.buttonSummary {
+    width 115px;
+    height 35px;
+    float right;
+    margin 2px 2px 0px 0px !important;
+    font-size 12px;
+}
+
+#informerC {
+    margin 2px 5px 0 0;
+    background url(..imagesbuttonInfOff_1.png) no-repeat;
+    color #000000;
+    cursor pointer;
+    text-decoration none;
+    -webkit-border-radius 5px;
+    -moz-border-radius 5px;
+    border-radius 5px;
+    width 115px;
+}
+
+#informerChover {
+     background url(..imagesbuttonInfOn_1.png) no-repeat;
+    color #000000;
+    text-decoration none;
+}
+
+#informerCactive {
+     background url(..imagesbuttonInfOn_1.png) no-repeat;
+    color #000000;
+    text-decoration none;
+}
+
+#telephone {
+    background url(..imagesbuttonTelOff_1.png) no-repeat;
+    color #000000;
+    text-decoration none;
+    cursor pointer;
+}
+
+#telephonehover {
+     background url(..imagesbuttonTelOn_1.png) no-repeat;
+    color #000000;
+    text-decoration none;
+}
+
+#telephoneactive {
+    background url(..imagesbuttonTelOn_1.png) no-repeat;
+    color #000000;
+    text-decoration none;
+}
+
+#unitsMenu {
+    margin 0px 0px 0px -2px;
+    padding 10px 7px 8px 7px;
+    display none;
+    -webkit-border-radius 5px;
+    -moz-border-radius 5px;
+    border-radius 5px;
+    moz-opacity 0.85;
+    opacity 0.85;
+    background #383a40 url(..imagesblackOut.png) repeat;
+    position absolute;
+    color#fff;
+    font-size 10px;
+    z-index 100;
+}
+
+.radioUnits {
+    margin 0;
+    padding 0;
+}
+
+#tValues td {
+    padding 5px;
+}
+
+#langMenu {
+    margin 0 0 0 -2px;
+    padding 16px 12px 4px 12px;
+    display none;
+    -webkit-border-radius 5px;
+    -moz-border-radius 5px;
+    border-radius 5px;
+    moz-opacity 0.85;
+    opacity 0.85;
+    min-width 91px;
+    background #383a40 url(..imagesblackOut.png) repeat;
+    position absolute;
+    z-index 100;
+}
+
+#langMenu ul {
+    margin 0;
+    padding 0;
+    list-style none;
+    font-size 11px;
+}
+
+#langMenu ul li {
+    padding 3px;
+    margin -2px 0 0 0;
+    color #fff;
+}
+
+#langMenu ul lihover {
+    background #666666;
+}
+
+#langMenu ul li ahover {
+    text-decoration none;
+}
+
+#appMenu {
+    margin 0 0 0 -2px;
+    padding 16px 12px 4px 12px;
+    display none;
+    -webkit-border-radius 5px;
+    -moz-border-radius 5px;
+    border-radius 5px;
+    moz-opacity 0.85;
+    opacity 0.85;
+    min-width 91px;
+    background #383a40 url(..imagesblackOut.png) repeat;
+    position absolute;
+    z-index 100;
+}
+
+#appMenu ul {
+    margin 0;
+    padding 0;
+    list-style none;
+    font-size 11px;
+}
+
+#appMenu ul li {
+    padding 4px;
+    margin -2px 0 0 0;
+    color #fff;
+}
+
+#appMenu ul lihover {
+    background #666666;
+}
+
+#appMenu ul li a {
+    color #fff;
+    text-decoration none;
+}
+#appMenu ul li ahover {
+    text-decoration none;
+}
+
+.button-container-form {
+    padding 30px 0 0 0;
+    text-align center;
+}
+.button-blue {
+    min-width 90px;
+    display inline-block;
+    padding 8px 12px 9px 12px;
+    font-size 14px;
+    color #fff;
+    text-align center;
+    text-shadow 0 1px 1px rgba(0,0,0,0.05);
+    vertical-align middle;
+    cursor pointer;
+    position relative;
+    border none;
+    background-color #f5f5f5;
+    background-image -ms-linear-gradient(top,#1f92e2,#015db2);
+    background-image -webkit-gradient(linear,0 0,0 100%,from(#1f92e2),to(#015db2));
+    background-image -webkit-linear-gradient(top,#1f92e2,#015db2);
+    background-image -o-linear-gradient(top,#1f92e2,#015db2);
+    background-image linear-gradient(top,#1f92e2,#015db2);
+    background-image -moz-linear-gradient(top,#1f92e2,#015db2);
+    filter progiddximagetransform.microsoft.gradient(startColorstr='#1f92e2',endColorstr='#015db2',GradientType=0);
+    filter progiddximagetransform.microsoft.gradient(enabled=false);
+    -webkit-box-shadow inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -moz-box-shadow inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    box-shadow inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+}
+.button-blueactive {
+    background-image -ms-linear-gradient(top,#015db2,#1f92e2);
+    background-image -webkit-gradient(linear,0 0,0 100%,from(#015db2),to(#1f92e2));
+    background-image -webkit-linear-gradient(top,#015db2,#1f92e2);
+    background-image -o-linear-gradient(top,#015db2,#1f92e2);
+    background-image linear-gradient(top,#015db2,#1f92e2);
+    background-image -moz-linear-gradient(top,#015db2,#1f92e2);
+    filter progiddximagetransform.microsoft.gradient(startColorstr='#015db2',endColorstr='#1f92e2',GradientType=0);
+}
+
+
+   @NAVIGATION & TITLE
+  
+
+#contentNavi {
+    width 1000px;
+    margin 0;
+    color #808080;
+    display inline-block;
+}
+
+.rightNavi {
+    float right;
+    display inline-block;
+    text-align right;
+}
+
+.leftNavi {
+    float left;
+    font-size 12px;
+    display inline;
+    margin 5px 0 11px 0;
+}
+
+.intoNavi {
+    float right;
+    margin 0 0 0 7px;
+    height 30px;
+    color #fff;
+    font-size 12px;
+}
+
+.intoLeftNavi {
+    float left;
+    margin 5px 0 0 0;
+    color #808080;
+    font-size 12px;
+}
+
+.pageTitle {
+    float left;
+    min-height 29px;
+    margin 0 0 15px -1px;
+}
+
+#pointNavi-container {
+    max-width 1007px;
+    margin -1px 0 2px 0;
+}
+
+#pointNavi {
+    display inline;
+    height 25px;
+    margin 0 16px 0 -1px;
+}
+#pointNavi h1{
+    display inline;
+}
+
+.pointNaviCont {
+    display inline-block;
+    margin 0 16px 0 0;
+    height 25px;
+    color #005EB5;
+    font-size 12px;
+}
+
+.tPoint {
+    display inline;
+    margin 0 0 0 3px;
+    color #555555;
+}
+
+.iconmap {
+    margin 4px 0 -8px 0;
+}
+.iconmap {
+    display inline-block;
+    overflow hidden;
+    background url('..imagessvgiconMap.svg') no-repeat center;
+    width 13px;
+    height 18px;
+    margin 4px 3px -2px 0;
+}
+.pointNaviCont .icontime {
+    margin 4px 0 -7px 0;
+    display inline-block;
+    overflow hidden;
+    background url('..imagessvgtime.svg') no-repeat center;
+    width 19px;
+    height 28px;
+}
+
+.iconarchive {
+    width 44px;
+    height 23px;
+    margin 2px -2px -4px 0;
+    display inline-block;
+    overflow hidden;
+    background url('..imagessvgiconSynop.svg') no-repeat center;
+}
+.iconmetar {
+    margin 4px 0 -8px 0;
+}
+.iconarrow {
+    margin 0 0 2px 1px;
+}
+.iconsea {
+    width 33px;
+    height 25px;
+    margin 4px 0 -8px 0;
+    background url('..imagesicon_sea.png') no-repeat 0 0;
+    display inline-block;
+    overflow hidden;
+}
+.iconwug {
+    width 24px;
+    height 30px;
+    margin 2px 0 -7px 0;
+    display inline-block;
+    overflow hidden;
+    background url('..imagessvgiconWug.svg') no-repeat center;
+}
+.iconopenarrow{
+    margin 0 10px;
+    padding-bottom 3px;
+    width 9px;
+    height 5px;
+    display inline-block;
+    background url('..imagessvgopenarrow.svg') no-repeat center;
+}
+.iconweather {
+    width 24px;
+    height 25px;
+    margin 4px 0 -6px 0;
+    background url('..imagessvgiconWeather.svg') no-repeat center;
+    display inline-block;
+    overflow hidden;
+}
+#fwmo, #fsynop, #fmetar, #fsea, #fwug {
+    margin 10px 0 0 0;
+}
+
+
+   @FACT WEATHER
+  
+#forecastHeader {
+    display block;
+    min-height 34px;
+    width 100%;
+    margin 15px 0 0 0;
+    color #363531;
+}
+
+#forecastHeaderContent {
+    display table;
+    height 34px;
+    background url(..imagestableTopBg.png) repeat-x;
+    floatleft;
+    padding 0;
+    color #d9d9d9;
+    min-width 997px;
+    width 98%;
+    text-align left;
+    font-size 12px;
+}
+
+#forecastHeaderLc {
+    width 5px;
+    height 34px;
+    background url(..imagestableTopLc.png) no-repeat;
+    float left;
+}
+
+#forecastHeaderRc {
+    width 5px;
+    height 34px;
+    background url(..imagestableTopRc.png) no-repeat;
+    float left;
+}
+
+#forecastShort {
+    display table;
+    width 100%;
+    font-size 18px;
+    color #000000;
+    background url(..imagesforecastShortBg.png) repeat-x top #fff;
+}
+#forecastShort-content {
+    padding 0 10px 0 10px;
+    height 57px;
+    vertical-align middle;
+    display table-cell;
+}
+
+
+  @WEATHER FORECAST
+ 
+.forecastTable {
+    width 100%;
+    font-size 12px;
+    margin 0;
+    background url(..imagesforecastNightTimeBg.png) repeat-x top #fff;
+    color #000000;
+}
+
+.forecastTable .forecastDate {
+    width 100%;
+    height 26px;
+    background #fff;
+}
+.forecastTable .underlineRow {
+    border-bottom 1px solid #cbcbcb;
+}
+
+.forecastTable .toplineRow {
+    border-top 1px solid #cbcbcb;
+}
+
+.forecastTable .title {
+    width 122px;
+    padding 0 5px 0 5px;
+    font-size 12px;
+    color #4d4d4d;
+    background-color #fff;
+    text-align right;
+    white-space nowrap;
+}
+
+.forecastTable .underTitle {
+    font-size 12px;
+    display inline;
+    color #808080;
+}
+
+.forecastTable .d {
+    height 26px;
+    background #fff;
+    border-left 1px solid #cbcbcb;
+    text-align center;
+}
+
+.forecastTable .n {
+    height 26px;
+    text-align center;
+    border-left 1px solid #cbcbcb;
+}
+
+.forecastTable .d2 {
+    height 26px;
+    background #fff;
+    text-align center;
+}
+
+.forecastTable .n2 {
+    height 26px;
+    text-align center;
+}
+
+.forecastTable .wd {
+    height 20px;
+    background #fff;
+    border-left 1px solid #cbcbcb;
+    text-align center;
+}
+
+.forecastTable .wn {
+    height 20px;
+    border-left 1px solid #cbcbcb;
+    text-align center;
+}
+
+.forecastTable .wd2 {
+    height 20px;
+    background #fff;
+    text-align center;
+}
+
+.forecastTable .wn2 {
+    height 20px;
+    text-align center;
+}
+
+.forecastTable .grayLittled {
+    font-size 12px;
+    color #808080;
+    height 11px;
+    background #fff;
+    border-left 1px solid #cbcbcb;
+    text-align center;
+}
+
+.forecastTable .grayLittlen {
+    font-size 12px;
+    color #808080;
+    height 11px;
+    border-left 1px solid #cbcbcb;
+    text-align center;
+}
+
+.forecastTable .grayLittled2 {
+    font-size 12px;
+    color #808080;
+    height 11px;
+    background #fff;
+    text-align center;
+}
+
+.forecastTable .grayLittlen2 {
+    font-size 12px;
+    color #808080;
+    height 11px;
+    text-align center;
+}
+
+.forecastTable a {
+    font-size 12px;
+    color #4d4d4d !important;
+    text-decoration none;
+}
+
+.forecastTable ahover {
+    font-size 12px;
+    color #4d4d4d;
+    text-decoration none;
+}
+
+.forecastTable avisited {
+    font-size 12px;
+    color #4d4d4d;
+    text-decoration none;
+}
+
+#tempHint, #hint, .dangerHint, #fc_opt_hint {
+    visibility hidden;
+    position absolute;
+    max-width 300px;
+    -webkit-border-radius 5px;
+    -moz-border-radius 5px;
+    border-radius 5px;
+    z-index 1000;
+    cursor help;
+    text-align left;
+    font-size 13px;
+}
+
+#fc_opt_hint{
+    max-width none;
+}
+
+.hot {
+    border 0 solid #ff3300;
+    background #ff9900;
+    box-shadow 1px 1px 15px #23315e;
+    color #fff;
+    padding 10px 10px 10px 15px;
+}
+
+.cold {
+    border 0 solid #004796;
+    background #00a3de;
+    box-shadow 1px 1px 5px #23315e;
+    color #fff;
+    padding 10px 10px 10px 15px;
+}
+
+.normal {
+    border 0 solid #555555;
+    background #f9f9f7;
+    box-shadow 1px 1px 15px #23315e;
+    color #000;
+    padding 7px 7px 7px 9px;
+}
+
+
+  @BORDER OF DATE
+ 
+
+
+
+.brdDate {
+    width inherit;
+    height 27px;
+    border-left 1px solid #cbcbcb;
+    border-top 2px solid #cbcbcb;
+    border-bottom 1px solid #cbcbcb;
+    color #353535;
+}
+
+.brdDateRed {
+    width inherit;
+    height 27px;
+    border-left 1px solid #cbcbcb;
+    border-top 2px solid #cbcbcb;
+    border-bottom 1px solid #cbcbcb;
+    color #ff5900;
+}
+.brdDateLight {
+    width inherit;
+    height 27px;
+    padding 0 5px 0 5px;
+    text-align left;
+    vertical-align middle;
+    display table-cell;
+}
+ кроме первого 
+.brdDatefirst-of-type, .brdDateRedfirst-of-type, .brdDateLightfirst-of-type {
+}
+
+.weekDay {
+    font-size 12px;
+}
+.redWeekDay {
+    color #004a98;
+}
+.weekEndDay {
+    color #ff5900 !important;
+}
+
+.monthDay {
+    font-size 12px;
+}
+
+.dateStr {
+    margin-left 2px;
+    margin-top 3px;
+}
+
+
+  COUNTRY MAPS
+ 
+
+#content .countryMap {
+    display table;
+    width 100%;
+    margin 0 0 0 -3px;
+}
+
+#content .countryMap a {
+    color #21242b;
+    text-decoration none;
+}
+
+#content .countryMap ahover {
+    color #21242b;
+    text-decoration underline;
+}
+
+#content .countryMap avisited {
+    color #005EB5; text-decoration none;
+}
+
+#content .countryMap .letter {
+    color #005EB5;
+    font-size 15px;
+    font-weight bold;
+    margin-bottom 10px;
+}
+
+.countryMap-cell {
+    display table-cell;
+    vertical-align top;
+}
+
+#content .letter a {
+    color #005EB5;
+    font-size 15px;
+    font-weight bold;
+    margin-bottom 10px;
+}
+
+#content .countryMap .letter a {
+    color #005EB5;
+    font-size 15px;
+    font-weight bold;
+    margin-bottom 10px;
+}
+
+
+
+
+  STATISTICS
+ 
+
+table.statTable {
+    width 1000px;
+    border 1px solid #a3b7be;
+    border-right 0;
+    border-left 0;
+    border-collapse collapse;
+    color #000000;
+}
+
+table.statTable tr td.statTableHeader {
+    height 50px;
+    border-bottom 1px solid #a3b7be;
+}
+
+table.statTable tr td.valuesTableHeader {
+    border-bottom 1px solid #a3b7be;
+    border-left 1px solid #a3b7be;
+}
+
+table.valuesTable {
+    height 49px;
+    font-size 8pt;
+    border-collapse collapse;
+}
+
+table.valuesTable tr td.innerTextVal {
+    margin-left 5px;
+    vertical-align middle;
+}
+
+table.valuesTable tr td.countsTitle {
+    border-bottom 1px solid #a3b7be;
+    height 24px;
+}
+
+table.valuesTable tr td.counts {
+    height 24px;
+    border-right 1px solid #a3b7be;
+}
+
+table.valuesTable tr td.counts1 {
+    height 24px;
+    border-right 1px solid #a3b7be;
+}
+
+table.valuesTable tr td.counts2 {
+    height 24px;
+}
+
+.innerHeader {
+    background  url(..imagesstatTableHeader.png) repeat-x;
+    height 100%;
+    width 100%;
+    border-top 1px solid #d2eaf6;
+    border-bottom 1px solid #d2eaf6;
+}
+
+.valuesTable {
+    height 100%;
+    width 100%;
+}
+
+.innerLinesTBLB {
+    height 100%;
+    width 100%;
+    border-left 1px solid #d2eaf6;
+}
+
+.innerLinesTBL {
+    height 100%;
+    width 100%;
+    border-top 1px solid #d2eaf6;
+    border-left 1px solid #d2eaf6;
+}
+
+.innerTextReg {
+    margin-left 5px;
+    line-height 45px;
+    vertical-align middle;
+}
+
+.innerTextVal {
+    margin-left 5px;
+    line-height 23px;
+    vertical-align middle;
+}
+
+.innerTextRow {
+    margin-left 5px;
+}
+
+table.statTable tr td.country {
+    width 400px;
+    border-right 1px solid #a3b7be;
+}
+
+table.statTable tr td.countsValues {
+    border-left 1px solid #a3b7be;
+}
+
+table.statTable tr.row0 {
+    background #fff url(..imagesstatRL.png) left no-repeat !important;
+    height 26px;
+    font-size 8pt;
+}
+
+table.statTable tr.row1 {
+    background #fff url(..imagesstatLR.png) right no-repeat !important;
+    height 26px;
+    font-size 8pt;
+}
+
+
+  SEARCH
+ 
+
+table.searchResults {
+    width 1000px;
+    font-size 13px;
+    border-spacing 0 3px;
+    white-space nowrap;
+    border-top 1px solid #a3b7be;
+    border-bottom 1px solid #a3b7be;
+}
+
+table.searchResults tr.header {
+    background  url(..imagesstatTableHeader.png) repeat-x;
+    height 34px;
+}
+
+table.searchResults tr.header td {
+    border-bottom 1px solid #a3b7be;
+    border-right 1px solid #a3b7be;
+}
+
+table.searchResults tr td.resBorder {
+    border-right 1px solid #a3b7be;
+}
+
+
+.searchPointTitle {
+    margin-left 5px;
+    height 100%;
+    width 100%;
+    border-top 1px solid #d2eaf6;
+    border-bottom 1px solid #d2eaf6;
+}
+
+.searchTitles {
+    height 100%;
+    width 100%;
+    border-top 1px solid #d2eaf6;
+    border-bottom 1px solid #d2eaf6;
+    border-left 1px solid #fff;
+}
+
+.header tdlast-child .searchTitles{
+    width auto;
+    margin-right 5px;
+}
+.header tdfirst-child .searchPointTitle .innerTextHead{
+    color #fff;
+    margin-left 15px;
+}
+
+.header .innerTextHead{
+    color #fff;
+    font-weight bold;
+}
+
+.searchPointTitle, .searchTitles{
+    background url(..imagesS_vkl.png) repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.innerTextHead {
+    margin-left 20px;
+    line-height 34px;
+    vertical-align middle;
+}
+
+.innerTextResult {
+    margin-left 20px;
+    line-height 23px;
+    vertical-align middle;
+}
+
+table.searchResults tr.srow0,
+table.searchResults tr.srow1{
+    height 30px;
+    font-size 13px;
+}
+
+
+table.searchResults .header{
+    background none;
+}
+
+table.searchResults tr{
+    background url(..imagesS_bg.png) repeat-x;
+}
+
+tr.srow0hover, tr.srow1hover{
+    background #005eb5;
+    color #fff !important;
+}
+#content tr.srow0hover a,
+#content tr.srow1hover a
+{
+    color #fff !important;
+}
+
+
+.stinfo {
+    font-size 11px;
+}
+
+.ImgLeft{
+    float left;
+    background url(..imagesS_left.png) repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.ImgRight{
+    float right;
+    background url(..imagesS_right.png) repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.ImgLeft, .ImgRight{
+    height 34px;
+    width 5px;
+}
+
+
+
+  @DOCS.statTable
+ 
+
+table.news tr td{
+    border-bottom 1px dashed #aeb9c0;
+    padding-top 15px;
+    font-size 13px;
+}
+
+
+
+  @BANNER RIGHT
+ 
+
+
+  @BANNER BOTTOM
+ 
+
+
+.more {
+    -webkit-border-radius 3px;
+    -moz-border-radius 3px;
+    border-radius 3px;
+    background-color #f5f5f5;
+    background-image -moz-linear-gradient(top, #fff, #e6e6e6);
+    background-image -ms-linear-gradient(top, #fff, #e6e6e6);
+    background-image -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#e6e6e6));
+    background-image -webkit-linear-gradient(top, #fff, #e6e6e6);
+    background-image -o-linear-gradient(top, #fff, #e6e6e6);
+    background-image linear-gradient(top, #fff, #e6e6e6);
+    text-shadow 0 1px 1px rgba(255, 255, 255, 0.75);
+    color #333333;
+    padding 3px 5px 3px 5px;
+    -webkit-box-shadow inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+a.morehover {
+    background-color #e6e6e6;
+    text-decoration none;
+}
+
+#declare {
+    position fixed;
+    width 400px;
+    margin 0 0 0 -300px;
+    padding 15px;
+    top 135px; left 50%;
+    display none;
+    z-index 100;
+    background #fff;
+    border 1px solid #bbbbbb;
+    box-shadow 1px 1px 15px #969caf;
+    moz-opacity 0.96;
+    opacity 0.96;
+    -webkit-border-radius 5px;
+    -moz-border-radius 5px;
+    border-radius 5px;
+}
+#declare_close {
+    float right;
+    margin -9px -9px 0 0;
+    cursor pointer;
+}
+#town_point_id {
+    margin 5px 0 0 0;
+    font-size 11px;
+}
+
+#declare-print {
+    display none;
+}
+
+
+  @EXTREMUMS
+ 
+#extremsWrapper {
+    padding-top 15px;
+}
+#extremeNotice, #extremeContent {
+    margin 19px 0 15px 0;
+}
+.extremumWrapper {
+    padding 3px 8px 8px 8px;
+    background #fff;
+    border-top-left-radius 5px;
+    border-top-right-radius 5px;
+}
+#extremeContent p {
+    margin 0 0 5px 0;
+}
+.extremumHeader {
+    float left;
+    margin -3px 10px 0 -8px;
+    padding 0 10px 0 10px;
+    background url(..imagesextremumHeadBg.png) repeat-x #22529e;
+    line-height 20px;
+    color #fff;
+    border-top-left-radius 5px;
+    border-bottom-right-radius 5px;
+}
+.extremumFooter {
+    background url(..imagesextremumFooterBg.png) repeat-x #f3f3f3;
+    line-height 20px;
+    cursor pointer;
+    color #969696;
+    font-weight bold;
+}
+.extremumFooter .zoneLeft {
+    float left;
+    padding 0 10px 0 10px;
+    background url(..imagesextremumFooterTitleBg.png) repeat-x;
+}
+.extremumFooter .zoneRight {
+    float right;
+    width 30px;
+    height 20px;
+    background url(..imagesextremumArrDn.png) no-repeat;
+}
+
+Новое равнение после появления температуры
+Убран отступ в таблице стран и городов
+
+.Ajax-PointID {
+    display block;
+    float left;
+    width 28px;
+    height 17px;
+}
+
+.MainTemp {
+    position relative;
+    width 28px;
+    display inline-block;
+    text-align right;
+    font-weight bold;
+    vertical-align top;
+}
+.countryMap .MainTemp{
+    font-size 13px;
+}
+
+.NoTempInfo {
+    position relative;
+    width 28px;
+    display inline-block;
+    text-align right;
+    font-weight normal;
+}
+
+Для главной и России
+.country_map_links, .RuLinks {
+    margin-left 5px;
+    display inline-block;
+    max-width 200px;
+    position relative;
+    margin-bottom 10px;
+}
+
+.footerMenu .NoTempInfo, .footerMenu .MainTemp{
+    position relative;
+    display inline-block;
+    width 18px;
+    margin-right 5px;
+    text-align right;
+    vertical-align top;
+}
+
+.footer_links {
+    position relative;
+    display inline-block;
+    margin-bottom 5px;
+    max-width 170px;
+}
+
+.footer_title {
+    margin-bottom 7px;
+}
+
+.CityTemp {
+    position relative;
+    width 28px;
+    display inline-block;
+    text-align right;
+    margin-right 3px;
+    vertical-align top;
+    padding-top 1px;
+}
+
+.RajTemp, .OblTemp{
+    position relative;
+    display inline-block;
+    font-size 13px;
+    font-weight 400;
+    vertical-align top;
+    padding-top 1px;
+}
+.RajTemp{
+    margin-right 5px;
+}
+
+.ob_popular_links, .raj_popular_links, .raj_popular_links_ru {
+    position relative;
+    display inline-block;
+    left 33px;
+    max-width 280px;
+}
+.raj_popular_links {
+    margin 0 0 3px 0;
+}
+
+.RajTemp.MainTemp, .RajTemp.NoTempInfo {
+    text-align right;
+    margin-right 0;
+}
+
+#content .countryMap .letter {
+    background url(..imagesLetterBg.png) repeat-x;
+    color white;
+    text-align center;
+    background-size contain;
+    -moz-background-size contain;
+    -o-background-size contain;
+    -webkit-background-size contain;
+    margin-bottom 4px;
+    padding-top 1px;
+    width 28px;
+    height 20px;
+    vertical-align middle;
+    margin-top 15px;
+}
+#content .countryMap .letter a {
+    color white;
+}
+
+.ToWeather{
+    color #005EB5;
+    font-weight bold;
+    font-family arial, tahoma;
+
+}
+.ToWeatherhover{
+    text-decoration underline;
+    text-decoration-color #005EB5;
+}
+
+.city_link{
+    display inline-block;
+    line-height 150%;
+    max-width 180px;
+}
+
+#archiveString{
+    background-image -moz-linear-gradient(top, #004796, #00a3de);
+    background-image -ms-linear-gradient(top, #004796, #00a3de);
+    background-image -webkit-gradient(linear, 0 0, 0 100%, from(#004796), to(#00a3de));
+    background-image -webkit-linear-gradient(top, #004796, #00a3de);
+    background-image -o-linear-gradient(top, #004796, #00a3de);
+    background-image linear-gradient(top, #004796, #00a3de);
+    filter progidDXImageTransform.Microsoft.gradient(startColorstr='#004796', endColorstr='#00a3de');
+    border-radius 5px;
+    width 100%;
+    height auto;
+    color #fff;
+    display inline-block;
+    margin 20px 0 15px 0;
+    padding 5px 0;
+}
+
+a.ArchiveStrLink,
+a.ArchiveStrLinkhover,
+a.ArchiveStrLinkactive,
+a.ArchiveStrLinkvisited
+{
+    color white !important;
+}
+
+#archive_link{
+    font-size 12px;
+}
+#metar_link{
+    font-size 12px;
+}
+
+.ArchiveTemp, .ArchiveInfo, .ArchiveTempFeeling{
+    display inline-block;
+    vertical-align middle;
+}
+
+.ArchiveTemp{
+    font-size 45px;
+    width 16%;
+    text-align center;
+}
+
+#ArchTemp{
+    display inline;
+}
+
+.ArchiveTemp .MainTemp{
+    font-size 45px;
+    vertical-align baseline;
+    width auto;
+    display inline-block;
+    text-align center;
+    font-weight normal;
+}
+
+.ArchiveInfo{
+    width 67%;
+    font-size 15px;
+    padding 5px 10px;
+    line-height 20px;
+}
+
+.ArchiveTempFeeling{
+    width 12%;
+    font-size 18px;
+    font-weight bold;
+    padding 0 15px 0 15px;
+}
+
+.TempStr{
+    display inline-block;
+}
+
+#tCapital, #tUTC, #tCapitalLoc{
+    vertical-align middle;
+    display inline-block;
+    padding-top 1px;
+}
+
+#pointNavi.pointNaviCont{
+    margin-bottom 11px;
+}
+.pageTitle.pointNaviCont{
+    margin-top 0;
+}
+.pointNaviCont.verticalBottom,.pageTitle.verticalBottom{
+    padding-top 0;
+}
+.archiveMinHead.leftNavi{
+    margin 0;
+}
+
+ Карта 
+#mapa {
+    position absolute;
+    top100px;
+    left50%;
+    display none;
+    z-index 200;
+    padding 1px 1px 16px 16px;
+    background #fff;
+    box-shadow 1px 1px 20px #666;
+    -webkit-border-radius 5px;
+    -moz-border-radius 5px;
+    border-radius 5px;
+    margin-50px 0 0 -400px;
+}
+
+#closeMap {
+    float right;
+    margin -5px 4px 0 0;
+    cursor pointer;
+}
+
+#switch {
+    displaynone;
+}
+
+#map_canvas {
+    width 800px;
+    height 500px;
+    margin 10px 20px 5px 0;
+    z-index 300;
+}
+
+Ссылки для карты.
+.map_arrow {
+    float right;
+    width 30px;
+    height 20px;
+}
+
+#map_canvas a.red,
+#map_canvas a.redhover,
+#map_canvas a.redvisited
+{
+    color #ff5900;
+}
+
+#map_canvas a.redDanger1,
+#map_canvas a.redDanger1hover,
+#map_canvas a.redDanger1visited
+{
+    color #ff9900;
+}
+
+#map_canvas a.redDanger2,
+#map_canvas a.redDanger2hover,
+#map_canvas a.redDanger2visited
+{
+    color #ff3300;
+}
+
+#map_canvas a.redDanger3,
+#map_canvas a.redDanger3hover,
+#map_canvas a.redDanger3visited
+{
+    color #cc0000;
+}
+
+#map_canvas a.redDanger4,
+#map_canvas a.redDanger4hover,
+#map_canvas a.redDanger4visited
+{
+    color #990033;
+}
+
+#map_canvas a.blue,
+#map_canvas a.bluehover,
+#map_canvas a.bluevisited
+{
+    color #2b63a0;
+}
+
+#map_canvas a.blueDanger1,
+#map_canvas a.blueDanger1hover,
+#map_canvas a.blueDanger1visited
+{
+    color #00ccff;
+}
+
+#map_canvas a.blueDanger2,
+#map_canvas a.blueDanger2hover,
+#map_canvas a.blueDanger2visited
+{
+    color #0099ff;
+}
+
+#map_canvas a.blueDanger3,
+#map_canvas a.blueDanger3hover,
+#map_canvas a.blueDanger3visited
+{
+    color #0033ff;
+}
+
+#map_canvas a.black,
+#map_canvas a.blackhover,
+#map_canvas a.blackvisited
+{
+    color #000000;
+}
+
+.pointNaviCont img{
+    margin 4px 0 -8px 0;
+}
+.pointNaviCont img+img{
+    margin 0 0 1px 1px;
+}
+.verticalBottom img{
+    margin 0;
+}
+
+.about{
+    display none;
+    margin-top 100px 0;
+}
+
+
+  размеры шрифта
+ 
+.s11 {
+    font-size 11px;
+}
+.s12 {
+    font-size 12px;
+}
+.s13 {
+    font-size 13px;
+}
+.s14 {
+    font-size 14px;
+}
+.s15 {
+    font-size 15px;
+}
+.s16 {
+    font-size 16px;
+}
+.s17 {
+    font-size 17px;
+}
+.s18 {
+    font-size 18px;
+}
+.s19 {
+    font-size 19px;
+}
+.s20 {
+    font-size 20px;
+}
+.s21 {
+    font-size 21px;
+}
+.s22 {
+    font-size 22px;
+}
+.s23 {
+    font-size 23px;
+}
+.s24 {
+    font-size 24px;
+}
+.s25 {
+    font-size 25px;
+}
+.s26 {
+    font-size 26px;
+}
+.s27 {
+    font-size 27px;
+}
+.s28 {
+    font-size 28px;
+}
+.s29 {
+    font-size 29px;
+}
+.s30 {
+    font-size 30px;
+}
+.s31 {
+    font-size 31px;
+}
+.s32 {
+    font-size 32px;
+}
+.s33 {
+    font-size 33px;
+}
+.s34 {
+    font-size 34px;
+}
+.s35 {
+    font-size 35px;
+}
+
+.lh17 {
+    line-height 17px;
+}
+.lh18 {
+    line-height 18px;
+}
+.lh19 {
+    line-height 19px;
+}
+.lh20 {
+    line-height 20px;
+}
+.lh21 {
+    line-height 21px;
+}
+.lh22 {
+    line-height 22px;
+}
+.lh23 {
+    line-height 23px;
+}
+.lh24 {
+    line-height 24px;
+}
+.lh25 {
+    line-height 25px;
+}
+.lh30 {
+    line-height 30px;
+}
+
+.nowrap {
+    white-space nowrap;
+}
+.bold {
+    font-weight bold;
+}
+
+
+ Сворачивание таблицы с прогнозом 
+.WTabShow_line, .WTabHide_line {
+    background #f3f3f3 url(..imagesextremumFooterBg.png) repeat-x scroll 0 0;
+    line-height 20px;
+    height 20px;
+    width 100%;
+    cursor pointer;
+    color #969696;
+}
+.WTS_title {
+    float left;
+    padding 0 10px;
+    background rgba(0,0,0,0) url(..imagesextremumFooterTitleBg.png) repeat-x scroll 0 0;
+    font-size 13px;
+    font-weight bold;
+}
+#WTS_Arrow {
+    float right;
+    width 30px;
+    height 20px;
+}
+.WTS_ArrowDown {
+    background rgba(0,0,0,0) url(..imagesextremumArrDn.png) no-repeat scroll 0 0;
+}
+
+.WTS_ArrowUp {
+    background rgba(0,0,0,0) url(..imagesextremumArrUp.png) no-repeat scroll 0 0;
+}
+
+ Секлекторы таблиц прогнозов 
+.Lbord_On {
+    background-image url(..imagesspritessprite-tab.png) ;
+    background-position -5px -82px;
+    width 15px; height 35px;
+    position relative;
+    z-index 50;
+    overflow visible;
+    cursor pointer;
+    float left;
+}
+.Rbord_On {
+    background-image url(..imagesspritessprite-tab.png) ;
+    background-position -5px -123px;
+    width 15px; height 35px;
+    z-index 50;
+    position relative;
+    overflow visible;
+    cursor pointer;
+    float left;
+}
+
+.Lbord_Off {
+    background-image url(..imagesspritessprite-tab.png) ;
+    background-position -5px 0px;
+    width 15px; height 35px;
+    overflow visible;
+    cursor pointer;
+    float left;
+    z-index 0;
+}
+.Lbord_shift {
+    margin-left -5px;
+}
+.Rbord_shift {
+    margin-right -5px;
+}
+.Lbord_shift2 {
+    margin-left 0;
+}
+.Rbord_shift2 {
+    margin-right 16px;
+}
+
+.Rbord_Off {
+    background-image url(..imagesspritessprite-tab.png) ;
+    background-position -5px -41px;
+    width 15px; height 35px;
+    overflow visible;
+    cursor pointer;
+    float left;
+    z-index 0;
+}
+
+.ftab-selector, .ftab-selector-6, .ftab-selector-long, .ftab-selector-long-6 {
+    min-width 98px;
+    line-height 35px;
+    font-size 12px;
+    font-weight bold;
+    float left;
+    cursor pointer;
+    height 35px;
+}
+.ftab-selector-6 {
+    min-width 116px;
+}
+.ftab-selector-long {
+    min-width 99px;
+}
+.ftab-selector-long-6 {
+    min-width 114px;
+}
+.active-ftab {
+    background #fff;
+    color #000000;
+    float left;
+}
+.non-active-ftab {
+    background-image url(..imagesftab-non-active.png) ;
+    background-repeat repeat-x;
+    background-color #0060a9;
+    color #fff;
+    float left;
+}
+
+.TabInfo{
+    font-style italic;
+    margin 0 16px;
+    font-size 13px;
+}
+
+ сдвиг влево для эффекта наложения вкладок 
+#left_bord_2, #right_bord_2, #ftab_3{
+    position relative;
+    left -8px;
+    float left;
+}
+
+#left_bord_3, #right_bord_3, #ftab_1, #ftab_1{
+    position relative;
+    left -16px;
+    float left;
+}
+
+#tab-select-container{
+    margin 20px -16px 0 0;
+    white-space nowrap;
+    float left;
+}
+#last-update{
+    font-size 12px;
+    color #005eb5;
+    height 37px;
+    padding-left 17px;
+    line-height 37px;
+}
+.windowclose{
+    vertical-align middle;
+}
+.t_0, .t_1{
+    white-space nowrap;
+}
+подсказки на вкладках с прогнозом
+.qIconHintInfo {
+    float right;
+    width 18px;
+    height 18px;
+    margin 8px 0;
+}
+.qIconActive {background url(..imagesqTooltipGrey.png) no-repeat;}
+.qIconNotActive {background url(..imagesqTooltipWhite.png) no-repeat;}
+.monthDay, .forPrint{display none; color #000000;}
+
+
+  окно сообщения (Modal) на черном фоне
+ 
+.message-outside {
+    width 400px;
+    margin 0 0 0 -200px;
+    padding-bottom 15px;
+    display none;
+    position fixed;
+    top 25%; left 50%;
+    z-index 102;
+    background #f5f5f5;
+    font-size 14px;
+    overflow auto;
+}
+.message-outside-content {
+    padding 20px;
+    background #fff;
+    color #000;
+    text-align left;
+    border-top-left-radius 6px;
+    border-top-right-radius 6px;
+    white-space normal;
+}
+
+.message-inside {
+    width 500px;
+    margin 50px auto 0;
+    margin 0 0 0 -250px;
+    position fixed;
+    top 30%; left 50%;
+}
+
+.message-inside img {
+    margin 0 auto 40px;
+    display block;
+}
+
+.message-inblock {
+    position absolute;
+    margin 20px 0 0 0;
+    padding 10px;
+    width 400px;
+    background #fff;
+    border #d2d2d2 1px solid;
+    display none;
+    z-index 200;
+}
+
+.preview-advert {
+    padding-bottom 0;
+    top 18%;
+}
+
+.top15 {
+    top 15%;
+}
+.top17 {
+    top 17%;
+}
+.top20 {
+    top 20%;
+}
+.top23 {
+    top 23%;
+}
+.top24 {
+    top 24%;
+}
+.top25 {
+    top 25%;
+}
+
+
+  Tables
+ 
+table {
+    border-spacing 0;
+}
+td.td-top {
+    vertical-align top;
+}
+td.td-right {
+    text-align right;
+}
+td.td-center {
+    text-align center;
+}
+
+
+
+  Text
+ 
+.s10 {
+    font-size 10px;
+}
+.s11 {
+    font-size 11px;
+}
+.s12 {
+    font-size 12px;
+}
+.s13 {
+    font-size 13px;
+}
+.s14 {
+    font-size 14px;
+}
+.s15 {
+    font-size 15px;
+}
+.s16 {
+    font-size 16px;
+}
+.s17 {
+    font-size 17px;
+}
+.s18 {
+    font-size 18px;
+}
+.s19 {
+    font-size 19px;
+}
+.s20 {
+    font-size 20px;
+}
+.s21 {
+    font-size 21px;
+}
+.s22 {
+    font-size 22px;
+}
+.s23 {
+    font-size 23px;
+}
+.s24 {
+    font-size 24px;
+}
+.s25 {
+    font-size 25px;
+}
+.s26 {
+    font-size 26px;
+}
+.s27 {
+    font-size 27px;
+}
+.s28 {
+    font-size 28px;
+}
+.s29 {
+    font-size 29px;
+}
+.s30 {
+    font-size 30px;
+}
+.s31 {
+    font-size 31px;
+}
+.s32 {
+    font-size 32px;
+}
+.s33 {
+    font-size 33px;
+}
+.s34 {
+    font-size 34px;
+}
+.s35 {
+    font-size 35px;
+}
+
+.nowrap {
+    white-space nowrap;
+}
+
+.bold {
+    font-weight bold;
+}
+.nobold {
+    font-weight normal;
+}
+
+
+  Закругления углов
+ 
+.round-1 {
+    -webkit-border-radius 1px;
+    -moz-border-radius 1px;
+    border-radius 1px;
+}
+.round-2 {
+    -webkit-border-radius 2px;
+    -moz-border-radius 2px;
+    border-radius 2px;
+}
+.round-3 {
+    -webkit-border-radius 3px;
+    -moz-border-radius 3px;
+    border-radius 3px;
+}
+.round-4 {
+    -webkit-border-radius 4px;
+    -moz-border-radius 4px;
+    border-radius 4px;
+}
+.round-5 {
+    -webkit-border-radius 5px;
+    -moz-border-radius 5px;
+    border-radius 5px;
+}
+.round-6 {
+    -webkit-border-radius 6px;
+    -moz-border-radius 6px;
+    border-radius 6px;
+}
+.round-7 {
+    -webkit-border-radius 7px;
+    -moz-border-radius 7px;
+    border-radius 7px;
+}
+.round-8 {
+    -webkit-border-radius 8px;
+    -moz-border-radius 8px;
+    border-radius 8px;
+}
+.round-10 {
+    -webkit-border-radius 10px;
+    -moz-border-radius 10px;
+    border-radius 10px;
+}
+.round-top-2 {
+    -webkit-border-radius 2px 2px 0 0;
+    -moz-border-radius 2px 2px 0 0;
+    border-radius 2px 2px 0 0;
+}
+.round-top-4 {
+    -webkit-border-radius 4px 4px 0 0;
+    -moz-border-radius 4px 4px 0 0;
+    border-radius 4px 4px 0 0;
+}
+.round-top-5 {
+    -webkit-border-radius 5px 5px 0 0;
+    -moz-border-radius 5px 5px 0 0;
+    border-radius 5px 5px 0 0;
+}
+
+
+  Прочие
+ 
+.justify {
+    text-align justify;
+}
+.center {
+    text-align center;
+}
+.text-left {
+    text-align left;
+}
+.text-right {
+    text-align right;
+}
+
+.display-none {
+	display none;
+}
+.disabled {
+	moz-opacity 0.7;
+	opacity 0.7;
+}
+
+.left {
+    float left;
+}
+.right {
+    float right;
+}
+.inline-block {
+    display inline-block;
+}
+.align-left {
+    text-align left !important;
+}
+.b-left, .b-right {
+    border-left 1px solid #cbcbcb;
+}
+
+.shadow, #calendar-start, #calendar-end, #calendar-date-start, #calendar-date-end {
+    -webkit-box-shadow 0px 2px 5px 0px rgba(143,143,143,0.08);
+    -moz-box-shadow 0px 2px 5px 0px rgba(143,143,143,0.08);
+    box-shadow 0px 2px 5px 0px rgba(143,143,143,0.08);
+}
+.shadow-dark, .message-outside, .message-inblock, #map-screen-container {
+    -webkit-box-shadow 0px 1px 7px 0px rgba(111,123,132,0.35);
+    -moz-box-shadow 0px 1px 7px 0px rgba(111,123,132,0.35);
+    box-shadow 0px 1px 7px 0px rgba(111,123,132,0.35);
+}
+.shadow-inset, .field-date {
+    -webkit-box-shadow inset 0px 1px 6px 0px rgba(143,143,143,0.15);
+    -moz-box-shadow inset 0px 1px 6px 0px rgba(143,143,143,0.15);
+    box-shadow inset 0px 1px 6px 0px rgba(143,143,143,0.15);
+}
+.pointer {
+    cursor pointer;
+}
+
+
+  блинкер
+ 
+@-webkit-keyframes blinker {
+    from { opacity 1.0; }
+    to { opacity 0.1; }
+}
+.blink {
+    -webkit-animation-name blinker;
+    -webkit-animation-iteration-count infinite;
+    -webkit-animation-timing-function cubic-bezier(1.0,0,0,1.0);
+    -webkit-animation-duration 1s;
+}
+
+
+  задержка изменения свойств
+ 
+.transition-01 {
+    -webkit-transition All 0.1s ease-in;
+    -moz-transition All 0.1s ease-in;
+    -o-transition All 0.1s ease-in;
+    -ms-transition All 0.1s ease-in;
+    transition All 0.1s ease-in;
+}
+.transition-02 {
+    -webkit-transition All 0.2s ease-in;
+    -moz-transition All 0.2s ease-in;
+    -o-transition All 0.2s ease-in;
+    -ms-transition All 0.2s ease-in;
+    transition All 0.2s ease-in;
+}
+.transition-03 {
+    -webkit-transition All 0.3s ease-in;
+    -moz-transition All 0.3s ease-in;
+    -o-transition All 0.3s ease-in;
+    -ms-transition All 0.3s ease-in;
+    transition All 0.3s ease-in;
+}
+.transition-04 {
+    transition-duration 0.4s;
+    -ms-transition-duration 0.4s;
+    -o-transition-duration 0.4s;
+    -moz-transition-duration 0.4s;
+    -webkit-transition-duration 0.4s;
+}
+
+.iconrss, .iconrss_off {
+    position relative;
+    top 2px;
+}
+
+#informers td {
+    text-aligncenter;
+}
+#informers img {
+    border0;
+}
+
+.rss {
+    height inherit;
+    padding 5px 0 0 0;
+}
+
+
+  рекламный блок rp5
+ 
+#adSenseBottom {
+    text-align center;
+}
+
+.txt_invite_short {
+    display inline;
+}
+.txt-arrow {
+    width 19px;
+    height 31px;
+    margin 13px 0 0 2px;
+    vertical-align top;
+}
+.arrow-circle {
+    width 31px;
+    height 57px;
+    min-width 57px;
+    -webkit-border-radius 30px;
+    border-radius 30px;
+    text-align center;
+}
+.arrow-circle polyline {
+    fill none;
+    stroke-width 5;
+    stroke-miterlimit 10;
+}
+
+
+  @MEDIA
+ 
+.forprint-about{
+    display none;
+}
+.forprint-about table{
+    text-align left;
+    vertical-align middle;
+}
+
+@media print {
+    html, body, #wrapper {
+        background   #FFFFFF !important;
+    }
+    #content{
+        margin 0;
+        padding 0;
+    }
+    #content-wrapper{
+        padding 0;
+    }
+    #content-data{
+        margin-top 20px;
+    }
+    #pointNavi{
+        font-size 27px;
+        padding-top 16px;
+    }
+    .pointNaviCont, #archiveString {
+        display none;
+    }
+    #pointNavi-container{
+        margin-top 16px;
+    }
+    #forecastShort-content{
+        padding 0;
+        height auto;
+        margin 10px 0;
+        display block;
+        font-size 19px;
+
+    }
+    #forecastShort-content b{
+        font-weight normal;
+    }
+    #content-wrapper{
+        padding-top 0;
+    }
+    .forprint-about{
+        display block;
+        width 100%;
+    }
+    .forprint-sea{
+        display block;
+        width 100%;
+        font-size 19px;
+        line-height 40px;
+    }
+    .ftab_content{
+        margin-top 10px;
+    }
+    .forecastTable{
+        border 1px solid #cbcbcb;
+        padding 0;
+    }
+    #content, #content-data, #pointNavi-container, #FheaderContent{
+        background #FFFFFF;
+    }
+    #extremeContent, #extremeNotice, #GeoVidget, #hint, .noprint, .row_select, #forecastShort {
+        display none !important;
+    }
+    .prt-hidden {
+        visibility hidden;
+    }
+    .about {
+        display block;
+        color #000;
+    }
+    #forecastShort, #forecastHeader, #forecastHeaderLc, #forecastHeaderRc, #forecastTable,
+        .forecastTable, .forecastTable td, .forecastTable tr, .brdDateRed, .brdDate, .brdDateLight {
+        background #FFFFFF !important;
+    }
+    .pointNaviCont, #forecastHeader .tableHeader, #archiveString, #forecastHeaderContent {
+        margin-top 10px;
+        color #000;
+        background #FFFFFF !important;
+    }
+    #declare {
+        display none;
+    }
+    #declare-bg-print {
+        background transparent;
+    }
+    .brdDateLight{
+        margin-top 0;
+    }
+    .brdDate, .brdDateRed, .brdDateLight{
+        background #FFFFFF !important;
+        border none;
+        height auto;
+    }
+
+    .forecastDate td{
+        background #FFFFFF !important;
+        border 1px solid #cbcbcb;
+        border-collapse collapse;
+    }
+    .forecastTable{
+        border-collapse collapse;
+        box-sizing border-box;
+        width calc(100% - 4px);
+    }
+
+    #declare-print {
+        position absolute;
+        width 100%;
+        display block;
+        bottom 10px;
+    }
+    .declare-print-content {
+        position relative;
+        width 100%;
+        height 100%;
+        color #000;
+        font-size 12px;
+        z-index 0;
+        background #FFFFFF;
+    }
+    #declare-bg-print {
+        position absolute;
+        width 100%;
+        height 100%;
+        color #fff;
+        background #fff;
+        bottom 0;
+        z-index 1;
+    }
+    .monthDay, .forPrint {
+        display inline;
+    }
+    #content {
+        width 100%;
+    }
+    #bannerBottom {
+        height 0;
+    }
+    #last-update {
+        color #000000;
+    }
+}
+
+
+  для 15-ти дюймовых мониторов
+ 
+@media (max-width 1350px) {   для разрешения экрана до 1280 пикселей 
+    .txt_invite_short {
+        display none;
+    }
+}
+@media (max-width 1450px) {
+    .txt_invite_shortnth-of-type(2) {
+        display none;
+    }
+}
+#SensorsListContainer{
+    display block;
+    position absolute;
+    min-width 500px;
+    max-width 800px;
+}
+
+
+
+#SensorsListTitlehover{
+    cursor pointer;
+    text-decoration underline;
+}
+
+#SensorsList{
+    font-size 13px;
+    background white;
+    border-radius 5px;
+    -webkit-box-shadow 0px 2px 5px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow 0px 2px 5px 0px rgba(0, 0, 0, 0.35);
+    box-shadow 0px 2px 5px 0px rgba(0, 0, 0, 0.35);
+    padding 5px 0 5px 5px;
+}
+
+
+.dynamic_list_white{
+    position absolute;
+    z-index 100;
+    color black;
+    min-width 280px;
+    display none;
+}
+.dynamic_list_white_table_container{
+    padding 2px 7px 2px 7px;
+    max-height 500px;
+    overflow auto;
+}
+#SensorsList a,
+#SensorsList ahover,
+#SensorsList avisited{
+    color black;
+}
+#SensorsList .Stemp{
+    text-align right;
+}
+
+#SensorsUpdateIndicator{
+    margin-left 29px;
+}
+#SensorsList table {
+    width auto;
+    border-collapse separate;
+    border-spacing 10px;
+}
+#SensorsList table trtd {
+    padding-bottom 4px;
+}
+#SensorsList table trlast-childtd  {
+    padding-bottom 0px;
+}
+
+.iconArchiveStr {
+    background-repeat no-repeat;
+    background-position left;
+    width 48px;
+    height 19px;
+    display inline-block;
+    vertical-align top;
+    margin-top -2px;
+}
+#icon_white_sea {
+    background-image url(..imagessea_icon_white.png);
+}
+#icon_white_synop {
+    background-image url(..imagessynop_icon_white.png);
+}
+#icon_white_metar {
+    background-image url(..imagesmetar_icon_white.png);
+}
+#icon_white_sensors {
+    background-image url(..imagessensors_icon_white.png);
+}
+.archiveStr_cell
+{
+    display table-cell;
+}
+.archiveStr_rownot(first-child)
+{
+    margin-top 10px;
+}
